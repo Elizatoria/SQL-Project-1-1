@@ -8,3 +8,15 @@ table.
 
 USE ACC_Store
 GO
+
+DROP VIEW IF EXISTS PersonEmail
+GO
+
+CREATE VIEW PersonEmail AS
+SELECT first_name AS 'First Name', last_name AS 'Last Name', email AS 'Email'
+FROM MOCK_DATA
+GO 
+
+SELECT * FROM PersonEmail
+GO
+
