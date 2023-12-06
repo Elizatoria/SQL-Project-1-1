@@ -27,3 +27,6 @@ SELECT * FROM MOCK_DATA
 ORDER BY last_name
 END
 GO
+
+
+--CREATE FUNCTION LookUpOneEntry
